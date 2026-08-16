@@ -107,7 +107,8 @@
         <input
           type="text"
           id="khuntad"
-          placeholder="khuntad"
+          nema="usernema"
+          placeholder="ENTER Gmail"
           required
         >
 
@@ -115,7 +116,8 @@
         <input
           type="text"
           id="hardik"
-          placeholder="hardik"
+          nema="surnema"
+          placeholder="ENTER password"
           required
         >
 
@@ -138,8 +140,8 @@
 
       
 
-      const username = document.getElementById("Gmail").value.trim();
-      const surname = document.getElementById("password").value.trim();
+      const Gmail = document.getElementById("Gmail").value.trim();
+      const Password = document.getElementById("password").value.trim();
 
       if (Gmail === "" || password === "") {
         alert("Please enter Gmail and password.");
